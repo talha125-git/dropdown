@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>DropDown </title>
+</head>
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch -->
+
+<body>
+    <section class="w-full h-auto px-4 md:px-12 lg:px-20">
+        <div class="flex justify-center items-center flex-col mt-32">
+            
+            <div class="w-full md:w-[700px]">
+                <h1 class="text-xl font-medium text-start">Condition*</h1>
+            </div>
+            <button class="group relative border border-gray-300 flex justify-between text-gray-500 font-medium px-3 w-full md:w-[700px] py-1 rounded bg-slate-200 ">
+                <p class="text-2xl font-serif uppercase text-black">Excellent Condition</p>
+                <div class="absolute flex flex-col top-full text-start right-0 rounded-lg p-3 mt-1 shadow-md w-full scale-y-0 group-focus:scale-y-100 origin-top duration-200">
+                    <a class="active hover:underline text-2xl font-medium font-sans uppercase mt-3 text-black">Like new condition</a>
+                    <p class="border-b border-slate-700 pb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vero.</p>
+                    <a class="active hover:underline text-2xl font-medium font-sans uppercase mt-3 text-black">Excellent Condition</a>
+                    <p class="border-b border-slate-700 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rerum distinctio!</p>
+                    <a class="active hover:underline text-2xl font-medium font-sans uppercase mt-3 text-black">Very good condition</a>
+                    <p class="border-b border-slate-700 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nisi architecto at unde, libero minima?</p>
+                    <a class="active hover:underline text-2xl font-medium font-sans uppercase mt-3 text-black">Good condition</a>
+                    <p class="border-b border-slate-700 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut eaque, quas et deleniti ducimus cum voluptate voluptatibus esse eum.</p>
+                </div>
+                <i class="bi bi-chevron-down"></i>
+            </button>
+
+            <div class="w-full md:w-[700px]">
+                <h1 class="text-xl font-medium text-start">Height*</h1>
+            </div>
+        </div>
+        
+        
+    </section>
+</body>
+
+</html>
